@@ -1,38 +1,419 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Kalnia&family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  background: rgba(217, 217, 217, 0.4);
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 35px;
+  padding: 10px;
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 5px;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a {
+  height: 100%;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a.active {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav a span {
+  background-color: aliceblue;
+  margin-top: 12px;
+  padding: 1px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.intro-section {
+  width: 60%;
+  padding: 20px;
+  height: auto;
+  margin: 0 auto;
+  font-family: "Electrolize", sans-serif;
+  margin-top: 150px;
+  overflow: hidden;
+}
+
+.intro-section h1 {
+  font-size: 128px;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Kalnia", serif;
+}
+
+.intro-section p {
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  max-width: 700px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 65%;
+  margin: 100px auto;
+  gap: 30px;
+}
+
+.grid a {
+  height: 500px;
+  border-radius: 24px;
+  overflow: hidden;
+  font-family: "Kalnia";
+  font-weight: 800;
+}
+
+.grid-item-1 {
+  background-color: #a545ef;
+}
+
+.grid-item-2 {
+  grid-column: 2 / span 2;
+  background-color: burlywood;
+}
+
+.grid-item-3 {
+  grid-row: 2/2;
+  grid-column: 1 / span 2;
+  background-color: #15b7df;
+}
+
+.grid-item-4 {
+  background-color: /*#e95d2a*/ #726cee;
+}
+
+.grid-item {
   display: flex;
   flex-direction: column;
+}
+
+.grid a {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.grid a:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.img-container img {
+  transition: all 0.3s ease-in-out;
+}
+
+.grid-item:hover .img-container img {
+  transform: translateY(30px);
+}
+
+.organization {
+  padding: 20px 50px;
+  color: #344542;
+}
+
+.organization h1,
+.organization p {
+  text-align: right;
+}
+
+.organization p {
+  font-size: 20px;
+}
+
+.img-container {
+  padding: 50px;
+  width: 100%;
+}
+
+.img-container img {
+  object-fit: cover;
+  height: 450px;
+  margin-top: -47px;
+}
+.progress-section {
+  margin-bottom: 100px;
+}
+
+.progress-section a.grid-item-1 {
+  background-color: #4685ce;
+}
+
+.progress-section a.grid-item-2 {
+  background-color: #e95d2a;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  padding: 150px 0;
+}
+
+.songs-bar {
+  display: flex;
+  background: #233831;
+  padding: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 50px;
+  gap: 10px;
   color: white;
+  font-family: "Poppins";
+  height: 82px;
 }
 
-.App-link {
-  color: #61dafb;
+.links {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  color: #233831;
+  font-family: "Poppins";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links a {
+  display: block;
+  line-height: 3rem;
+}
+
+.profile-section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Poppins";
+  padding: 100px 0px;
+}
+
+.profile-section .img-container {
+  position: relative;
+  width: auto;
+}
+
+.profile-section .img-container img {
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+}
+
+.profile-section .songs-bar {
+  border-radius: 0;
+  margin-top: -10px;
+}
+
+.profile-section .hero-text {
+  padding: 0px 50px;
+}
+
+.hero-text h1 {
+  margin: 50px 0 0 0px;
+  font-family: "Kalnia";
+  font-size: 3rem;
+}
+
+.hero-text p {
+  margin-top: 50px;
+  font-size: 1.8rem;
+}
+
+.experience-section {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-section h3 {
+  font-weight: 400;
+}
+
+.experience-section .songs-bar {
+  padding: 0 50px;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #bed1ce;
+  line-height: 30px;
+}
+
+.experience-section .bar-1 {
+  width: 70%;
+  align-self: center;
+}
+
+.experience-section .bar-2 {
+  width: 90%;
+  align-self: center;
+}
+
+.experience-section .bar-4 {
+  width: 30%;
+}
+
+.more-info {
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px 50px;
+  color: #233831;
+}
+
+.more-info h1 {
+  max-width: 90%;
+  font-family: "Kalnia";
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.more-info p {
+  font-family: "Poppins";
+}
+
+.about .grid {
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  border-radius: 50px;
+  color: #233831;
+  gap: 50px;
+}
+
+.ethos .grid > div {
+  line-height: 2rem;
+}
+
+.ethos h1 {
+  font-family: "Kalnia";
+  margin: 20px 0;
+}
+
+.ethos p {
+  font-family: "Poppins";
+}
+
+.ethos .number {
+  background-color: #233831;
+  color: white;
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  text-align: center;
+  transition: 0.5s all;
+  border-radius: 10px;
+}
+
+.ethic:hover .number {
+  transform: rotateZ(-45deg);
+}
+
+.about .ethos > h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.ethos .grid-4 .number,
+.ethos .grid-2 .number {
+  margin-left: auto;
+}
+
+.ethos .grid-4,
+.ethos .grid-2 {
+  text-align: justify;
+}
+
+.other-info {
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+
+.other-info p {
+  margin-top: 30px;
+  line-height: 2rem;
+}
+
+.about .pg-grid {
+  width: 70%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 0;
+}
+
+.about .pg-grid img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+.about .pg-grid .grid-item-1,
+.about .pg-grid .grid-item-2 {
+  background: transparent;
+  position: relative;
+}
+
+.about .pg-grid .grid-item-2 {
+  grid-row: 1 / 1;
+}
+
+.vessel {
+  transform: translate(20px, -118px);
+  width: fit-content;
+  overflow: hidden;
+}
+
+.about .pg-grid p {
+  background-color: rgba(217, 217, 217, 1);
+  transform: translateY(100px);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.about .pg-grid .grid-item-1:hover + .vessel p:first-of-type {
+  transform: translateY(0px);
+  transition: 0.2s ease;
+}
+
+.about .pg-grid .grid-item-2:hover + .vessel p:first-of-type {
+  transform: translateY(0px);
+  transition: 0.2s ease;
 }
