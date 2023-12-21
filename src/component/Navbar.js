@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/" className={activeLink === "/" ? "active" : ""}>
+      <Link to="/" className={activeLink === "/Home" ? "active" : ""}>
         Work <span>/</span>
       </Link>
       <Link to="/About" className={activeLink === "/About" ? "active" : ""}>
