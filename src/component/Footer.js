@@ -30,7 +30,7 @@ const Footer = ({ music }) => {
         </div>
         <div className="contact">
           <p>Contact</p>
-          <a href="t.me/@Fortune_Declan">Message</a>
+          <a href="https://t.me/@Fortune_Declan">Message</a>
         </div>
       </div>
     </div>
