@@ -96,7 +96,7 @@ const About = ({ title, subtitle }) => {
             <p>
               In my UI/UX design and volunteering works. I embody empathy. For
               me, it's about understanding users' needs for intuitive designs
-              and acknowledging the struggles of those you help, fostering
+              and acknowledging the struggles of those I help, fostering
               meaningful connections and impactful solutions.
             </p>
           </div>
@@ -105,10 +105,11 @@ const About = ({ title, subtitle }) => {
             <h1 className="name">Responsibility</h1>
             <p>
               My adherence to the ethic of responsibility speaks volumes about
-              your character. Whether it is in collaborating for a group project
-              or doing my task personnally I own up to the actions and decisions
-              I make which coupled with my willingness to rectify my mistakes,
-              makes you a valuable team member and a respected individual.
+              my character. Whether it is in collaborating for a group project
+              or doing my task personnally, I own up to the actions and
+              decisions I make which coupled with my willingness to rectify my
+              mistakes, makes me a valuable team member and a respected
+              individual.
             </p>
           </div>
           <div className="ethic grid-4">
@@ -117,9 +118,9 @@ const About = ({ title, subtitle }) => {
             <p>
               Taking action with courage is a testament to my strength and
               determination. It highlights my willingness to face challenges
-              head-on, step out of your comfort zone, and make tough decisions,
-              which not only leads to personal growth but also inspires others
-              to act courageously.
+              head-on, step out of my comfort zone, and make tough decisions,
+              which not only leads to my personal growth but also inspires
+              others to act courageously.
             </p>
           </div>
         </div>
