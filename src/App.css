@@ -601,3 +601,33 @@ nav a span {
     padding: 0 0 80px 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  nav a {
+    padding: 15px 10px;
+  }
+
+  nav a span {
+    padding: 1px 6px;
+    font-size: 10px;
+  }
+
+  .experience-section {
+    width: 95%;
+  }
+
+  .experience-section .songs-bar {
+    font-size: 0.6rem;
+  }
+
+  .ethos .grid {
+    padding: 30px;
+  }
+  .ethos .ethic {
+    text-align: justify;
+  }
+
+  .about .grid {
+    gap: 0;
+  }
+}
