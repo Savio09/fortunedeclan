@@ -606,9 +606,21 @@ nav a span {
   }
 }
 
+@media screen and (max-width: 410px) {
+  nav {
+    padding: 5px;
+  }
+
+  nav a {
+    padding: 10px 5px;
+    font-size: 11px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   nav a {
     padding: 15px 8px;
+    font-size: 11px;
   }
 
   nav a span {
@@ -636,11 +648,13 @@ nav a span {
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 350px) {
   nav {
-    padding: 5px;
+    gap: 0;
+    padding: 5px 0;
   }
   nav a {
-    padding: 10px 5px;
+    padding: 11px 12px;
+    font-size: 10px;
   }
 }
