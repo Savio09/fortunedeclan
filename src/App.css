@@ -484,6 +484,10 @@ nav a span {
     grid-column: 1 / span 3;
   }
 
+  .pg-grid .vessel:nth-of-type(1) {
+    grid-column: 1 / span 3;
+  }
+
   .pg-grid .vessel p {
     font-size: 12px;
   }
@@ -629,5 +633,11 @@ nav a span {
 
   .about .grid {
     gap: 0;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  nav a {
+    padding: 15px 8px;
   }
 }
