@@ -534,3 +534,70 @@ nav a span {
     padding: 0 50px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  nav {
+    width: 95%;
+  }
+
+  nav a {
+    padding: 15px;
+  }
+
+  nav a span {
+    padding: 1px 6px;
+    font-size: 10px;
+  }
+
+  .intro-section {
+    width: 90%;
+  }
+
+  .intro-section h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  .intro-section p {
+    font-size: 15px;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .profile-section {
+    padding: 70px 0;
+  }
+
+  .profile-section .img-container {
+    padding: 30px;
+  }
+
+  .hero-text h1,
+  .hero-text p {
+    padding: 0;
+  }
+  .experience-section .songs-bar {
+    width: 100%;
+    font-size: 12px;
+  }
+  .more-info {
+    width: 90%;
+  }
+
+  .more-info h1 {
+    font-size: 2rem;
+  }
+
+  .other-info {
+    width: 70%;
+  }
+  .about .pg-grid {
+    width: 90%;
+    padding: 0;
+  }
+  .footer {
+    padding: 0 0 80px 0;
+  }
+}
