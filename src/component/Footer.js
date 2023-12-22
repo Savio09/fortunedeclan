@@ -22,14 +22,15 @@ const Footer = ({ music }) => {
       <div className="links">
         <div className="elsewhere">
           <p>Elsewhere</p>
-          <a href="#">Github</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Telegram</a>
-          <a href="#">Resume</a>
+          <a href="https://github.com/Savio09">Github</a>
+          <a href="https://www.linkedin.com/in/declanfortune/">LinkedIn</a>
+          <a href="https://docs.google.com/document/d/19wRXlPhhljSmGOrOHVmvbArzSqgOb6THK4OOaVPyl9I/edit?usp=sharing">
+            Resume
+          </a>
         </div>
         <div className="contact">
           <p>Contact</p>
-          <a href="#">Message</a>
+          <a href="t.me/@Fortune_Declan">Message</a>
         </div>
       </div>
     </div>
