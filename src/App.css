@@ -606,6 +606,12 @@ nav a span {
   }
 }
 
+@media screen and (max-width: 410px) {
+  nav a {
+    padding: 15px 8px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   nav a {
     padding: 15px 10px;
@@ -633,11 +639,5 @@ nav a span {
 
   .about .grid {
     gap: 0;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  nav a {
-    padding: 15px 8px;
   }
 }
