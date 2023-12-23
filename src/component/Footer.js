@@ -23,7 +23,7 @@ const Footer = ({ music }) => {
       </a>
       <div className="links">
         <div className="elsewhere">
-          <p>Elsewhere</p>
+          <p>Connect</p>
           <a href="https://github.com/Savio09">Github</a>
           <a href="https://www.linkedin.com/in/declanfortune/">LinkedIn</a>
           <a href="https://docs.google.com/document/d/19wRXlPhhljSmGOrOHVmvbArzSqgOb6THK4OOaVPyl9I/edit?usp=sharing">
@@ -31,8 +31,9 @@ const Footer = ({ music }) => {
           </a>
         </div>
         <div className="contact">
-          <p>Contact</p>
-          <a href="https://t.me/@Fortune_Declan">Message</a>
+          <p>Message</p>
+          <a href="https://t.me/@Fortune_Declan">Telegram</a>
+          <a href="mailto:fortune@uni.minerva.edu">Gmail</a>
         </div>
       </div>
     </div>
