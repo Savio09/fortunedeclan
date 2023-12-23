@@ -11,8 +11,8 @@ const Hero = () => {
       >
         <div className="grid-item">
           <div className="organization">
-            <p>Code</p>
-            <h1>Team</h1>
+            <p>AI + Code</p>
+            <h1>Dictionary</h1>
           </div>
           <div className="img-container">
             <img src={img1} alt="" />
@@ -22,8 +22,8 @@ const Hero = () => {
       <a href="#" className="grid-item-2">
         <div className="grid-item">
           <div className="organization">
-            <p>AI + Code</p>
-            <h1>Dictionary</h1>
+            <p>Code</p>
+            <h1>Team</h1>
           </div>
           <div className="img-container">
             <img src={img2} alt="" />
@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="grid-item ">
           <div className="organization">
             <p>Code</p>
-            <h1>Personal</h1>
+            <h1>Team</h1>
           </div>
           <div className="img-container">
             <img src={img4} alt="" />
