@@ -127,7 +127,7 @@ const About = ({ title, subtitle }) => {
       </div>
       <div className="other-info">
         <p>
-          When I started learning hoe to code, i started with HTML and CSS and i
+          When I started learning how to code, i started with HTML and CSS and i
           remember being really enthralled. It was one conference for teenagers
           that exposed me to the world of coding, but there was something that
           kept me from maxing out my potential and that was the fact that I
