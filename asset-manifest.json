@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/fortunedeclan/static/css/main.ad398b5a.css",
+    "main.js": "/fortunedeclan/static/js/main.a545fba6.js",
+    "static/media/arr8.jpg": "/fortunedeclan/static/media/arr8.b1412fef6a9fd9bec9f2.jpg",
+    "static/media/arr10.jpg": "/fortunedeclan/static/media/arr10.f3e08b09cd4e4a577aec.jpg",
+    "static/media/arr6.jpg": "/fortunedeclan/static/media/arr6.29fae5a33083bc1f33e8.jpg",
+    "static/media/arr13.jpg": "/fortunedeclan/static/media/arr13.d25f0ddd227e36086c88.jpg",
+    "static/media/arr9.jpg": "/fortunedeclan/static/media/arr9.6fb175ea3567680ce11d.jpg",
+    "static/media/arr2.jpg": "/fortunedeclan/static/media/arr2.5448edb53f34a5d16daf.jpg",
+    "static/media/profile.png": "/fortunedeclan/static/media/profile.51821031ac50c219d7c3.png",
+    "static/media/arr12.jpg": "/fortunedeclan/static/media/arr12.9a96d3bf7f7091688775.jpg",
+    "static/media/arr7.jpg": "/fortunedeclan/static/media/arr7.af0052f8703147716e8b.jpg",
+    "static/media/arr4.jpg": "/fortunedeclan/static/media/arr4.d1ff1f69d9bb4d7703a1.jpg",
+    "static/media/arr11.jpg": "/fortunedeclan/static/media/arr11.d58ef2bd2ed491c579c2.jpg",
+    "static/media/arr3.jpg": "/fortunedeclan/static/media/arr3.abe13967c29555aaa08e.jpg",
+    "static/media/arr5.jpg": "/fortunedeclan/static/media/arr5.fc49c440a3511dea39b1.jpg",
+    "static/media/arr1.jpg": "/fortunedeclan/static/media/arr1.7be7a66b96d5edf6b572.jpg",
+    "static/media/recipe.png": "/fortunedeclan/static/media/recipe.983aa5e95f561d48519a.png",
+    "static/media/hero-1.png": "/fortunedeclan/static/media/hero-1.5eff1565ada331347433.png",
+    "static/media/snap.png": "/fortunedeclan/static/media/snap.a95746f612712076c645.png",
+    "static/media/todo.png": "/fortunedeclan/static/media/todo.89f6434849ba2b971445.png",
+    "static/media/hero-3.png": "/fortunedeclan/static/media/hero-3.95b710c1da90cb717907.png",
+    "static/media/hero-2.png": "/fortunedeclan/static/media/hero-2.87e328c489981c85917a.png",
+    "index.html": "/fortunedeclan/index.html",
+    "main.ad398b5a.css.map": "/fortunedeclan/static/css/main.ad398b5a.css.map",
+    "main.a545fba6.js.map": "/fortunedeclan/static/js/main.a545fba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad398b5a.css",
+    "static/js/main.a545fba6.js"
+  ]
+}
