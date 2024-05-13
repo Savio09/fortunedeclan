@@ -26,7 +26,7 @@ const Footer = ({ music }) => {
           <p>Connect</p>
           <a href="https://github.com/Savio09">Github</a>
           <a href="https://www.linkedin.com/in/declanfortune/">LinkedIn</a>
-          <a href="https://docs.google.com/document/d/19wRXlPhhljSmGOrOHVmvbArzSqgOb6THK4OOaVPyl9I/edit?usp=sharing">
+          <a href="https://docs.google.com/document/d/1Fe4FYmQbdZbndRxLqIpJ2jOl0olCUdZGfpm6X_Bl42k/edit?usp=sharing">
             Resume
           </a>
         </div>

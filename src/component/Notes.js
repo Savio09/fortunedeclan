@@ -3,7 +3,8 @@ import Intro from "./Intro";
 const Notes = () => {
   return (
     <div>
-      <Intro title={"Coming Soon"} />
+      <Intro title={"Notes"} />
+      <h1>Notes</h1>
     </div>
   );
 };
