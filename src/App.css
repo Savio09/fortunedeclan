@@ -579,6 +579,17 @@ nav a span {
   .pg-grid .vessel p {
     font-size: 12px;
   }
+
+  .modal {
+    width: 90%;
+  }
+  .story-list {
+    width: 80%;
+  }
+
+  .stories {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
