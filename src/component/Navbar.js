@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom/cjs/react-router-dom.min";
+import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 const Navbar = () => {
   // const navs = document.querySelectorAll("nav a");
@@ -27,16 +27,29 @@ const Navbar = () => {
       <Link to="/" className={activeLink === "/" ? "active" : ""}>
         Work <span>/</span>
       </Link>
-      <Link to="/About" className={activeLink === "/About" ? "active" : ""}>
+      <Link
+        to="/About"
+        className={activeLink.startsWith("/About") ? "active" : ""}
+      >
         About
       </Link>
-      <Link to="/Photos" className={activeLink === "/Photos" ? "active" : ""}>
-        Photos
-      </Link>
-      <Link to="/Notes" className={activeLink === "/Notes" ? "active" : ""}>
+      <Link
+        to="/Notes"
+        className={activeLink.startsWith("/Notes") ? "active" : ""}
+      >
         Notes
       </Link>
-      <Link to="/Contact" className={activeLink === "/Contact" ? "active" : ""}>
+      <Link
+        to="/Photos"
+        className={activeLink.startsWith("/Photos") ? "active" : ""}
+      >
+        Photos
+      </Link>
+
+      <Link
+        to="/Contact"
+        className={activeLink.startsWith("/Contact") ? "active" : ""}
+      >
         Contact
       </Link>
     </nav>
