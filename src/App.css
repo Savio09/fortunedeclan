@@ -603,7 +603,7 @@ nav a span {
 
 @media screen and (max-width: 768px) {
   nav {
-    width: 80%;
+    width: 90%;
   }
 
   .intro-section {
@@ -658,9 +658,9 @@ nav a span {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   nav {
-    width: 95%;
+    width: 90%;
   }
 
   nav a {
