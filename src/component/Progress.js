@@ -1,4 +1,4 @@
-import img1 from "../images/recipe.png";
+import img1 from "../images/safespace.png";
 import img2 from "../images/todo.png";
 const Progress = ({ title, subtitle }) => {
   return (
@@ -23,7 +23,10 @@ const Progress = ({ title, subtitle }) => {
             </div>
           </div>
         </a>
-        <a href="#" className="grid-item-2">
+        <a
+          href="https://safeway-readiness-e96fbb3c78fb.herokuapp.com/"
+          className="grid-item-2"
+        >
           <div className="grid-item">
             <div className="organization">
               <p>Code + API</p>
