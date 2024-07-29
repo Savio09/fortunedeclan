@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: beige;
+  background: linear-gradient(-97deg, #e2e8ec, #ffffff);
 }
 
 a {
@@ -42,7 +42,7 @@ nav a {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  color: black;
+  color: #233831;
 }
 
 a.active {
@@ -730,14 +730,23 @@ nav a span {
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 430px) {
   nav {
     padding: 5px;
   }
 
   nav a {
-    padding: 10px 5px;
+    padding: 15px;
     font-size: 11px;
+  }
+  nav a.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3;
+  }
+  nav a.first span {
+    margin-top: 0;
   }
 }
 

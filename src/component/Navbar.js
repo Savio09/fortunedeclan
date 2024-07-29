@@ -24,31 +24,32 @@ const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/" className={activeLink === "/" ? "active" : ""}>
+      <Link to="/" className={`first ${activeLink === "/" ? "active" : ""}`}>
         Work <span>/</span>
       </Link>
+
       <Link
-        to="/About"
-        className={activeLink.startsWith("/About") ? "active" : ""}
+        to="/about"
+        className={activeLink.startsWith("/about") ? "active" : ""}
       >
         About
       </Link>
       <Link
-        to="/Notes"
-        className={activeLink.startsWith("/Notes") ? "active" : ""}
+        to="/notes"
+        className={activeLink.startsWith("/notes") ? "active" : ""}
       >
         Notes
       </Link>
       <Link
-        to="/Photos"
-        className={activeLink.startsWith("/Photos") ? "active" : ""}
+        to="/photos"
+        className={activeLink.startsWith("/photos") ? "active" : ""}
       >
         Photos
       </Link>
 
       <Link
-        to="/Contact"
-        className={activeLink.startsWith("/Contact") ? "active" : ""}
+        to="/contact"
+        className={activeLink.startsWith("/contact") ? "active" : ""}
       >
         Contact
       </Link>

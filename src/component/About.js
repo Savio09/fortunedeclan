@@ -1,7 +1,24 @@
 import Intro from "./Intro";
 import img1 from "../images/profile.png";
 import Images from "./Images";
+import { useEffect, useState } from "react";
 const About = ({ title, subtitle }) => {
+  const [firstPictureNumber, setFirstPictureNumber] = useState(0);
+  const [secondPictureNumber, setSecondPictureNumber] = useState(0);
+
+  useEffect(() => {
+    const generateRandomNumber = () => Math.floor(Math.random() * 13);
+
+    const first = generateRandomNumber();
+    let second;
+    do {
+      second = generateRandomNumber();
+    } while (second === first);
+
+    setFirstPictureNumber(first);
+    setSecondPictureNumber(second);
+  }, []);
+
   return (
     <div className="about">
       <Intro title={"I'm Fortune."} />
@@ -162,14 +179,8 @@ const About = ({ title, subtitle }) => {
         </p>
       </div>
       <div className="grid pg-grid">
-        <Images
-          className={"grid-item-1"}
-          number={Math.floor(Math.random() * 13)}
-        />
-        <Images
-          className={"grid-item-2"}
-          number={Math.floor(Math.random() * 13)}
-        />
+        <Images className={"grid-item-1"} number={firstPictureNumber} />
+        <Images className={"grid-item-2"} number={secondPictureNumber} />
       </div>
     </div>
   );
