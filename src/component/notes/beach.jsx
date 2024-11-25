@@ -43,7 +43,7 @@ const Beach = ({
     >
       <button
         onClick={() => {
-          navigate(-1);
+          navigate("/notes");
         }}
       >
         <span class="material-symbols-outlined">close</span>
