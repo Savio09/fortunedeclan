@@ -7,8 +7,8 @@ import Navbar from "./component/Navbar";
 import Notes from "./component/Notes";
 import Photos from "./component/Photos";
 import Utopia from "./component/notes/utopia";
+import Beach from "./component/notes/beach";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { useState } from "react";
 
 function App() {
   return (
@@ -148,6 +148,52 @@ function App() {
                     I understand that not everyone has money, but you can decide to open the door for someone to walk through or say something nice to someone.
                     "
                     time="Apr. 10, 2023"
+                  />
+                }
+              />
+              <Route
+                path="jewel-cove"
+                element={
+                  <Beach
+                    title="The Jewel Beach"
+                    paragraph1={`
+                
+                    For over three months, Dylan had been wrestling with many thoughts: his emotional well-being, his academics, his family, and most importantly, those he called "friends." Parts of his life begged for redefinition. Until that Sunday evening, he believed he had everything under control.
+                
+                    Donning his rusty yet cherished sneakers and his unwashed yellow snapback—left untouched for months to preserve the scent of the home he had left so long ago—Dylan pulled on a sweatshirt from the co-educational advising group where he served as a mentor. After punching in the door code, he stepped inside. As he eased the door open, he swiftly turned, reaching for the doorknob one would grasp when leaving the room, and held the door until the latch clicked into place—a sound that sometimes sent a thrill through him.
+                
+                    Before him stood only two people: two females. One didn't quite fit his label of "girl"; as he would later learn, her life held experiences—some bitter, some traumatic, and many awe-inspiring—that made "woman" more fitting. The woman stood on one side of a desk—the kind typically manned by security or reception—while the girl, acting as the receptionist, was on the other side. Dylan was quite acquainted with the girl, but the woman was a mystery.
+                
+                    The woman turned swiftly, and Dylan caught a glimpse of her gloomy yet glistening eyes. Summoning his deep baritone—a voice that flourished with confidence and faded with self-doubt—he introduced himself.
+
+                    "Olivine," she replied, maintaining unwavering eye contact. As was his habit, Dylan asked his favorite icebreaker, "How do you spell Olivine?" and proceeded to spell it out.
+                
+                    "That's correct," she affirmed.
+                
+                    Noticing the luggage beside Olivine, Dylan surmised she was either arriving or departing.
+                
+                    "Do you go here?" he inquired.
+            
+                  `}
+                    paragraph2={`
+                
+                    Drawn by the movement, he turned to see one of his superiors—a "veteran"—accompanied by a few others he recognized through mutual connections on LinkedIn.
+                
+                    "When did you arrive, my guy?" Dylan asked Tochukwu, who sat between a girl and a boy.
+                
+                    "Yesterday," came the reply. After exchanging a few more pleasantries with Tochukwu, Dylan shook hands with the others, who seemed ready to plot his demise given the way he had intruded upon their conversation.
+                
+                    "Nice to meet you both. Sorry to interrupt—I’ll leave you to it." Spotting another familiar face, he called out, "Carlson!" The surprise was evident; Carlson didn't know Dylan, but Dylan knew him. Yet another round of introductions ensued.
+                
+                    `}
+                    paragraph3={`
+                    Another weekend at last. Dylan's internship had been fascinating but mentally taxing—and, to some extent, physically draining. To celebrate a week of hard work, he decided to indulge his cravings. Pulling out his cooking bag, he laid out a small tuber of yam, a vial of curry powder whose aroma filled the room as soon as he opened it—evoking memories of home-cooked meals shared with loved ones—some salt, onions, the game-changing ingredient of red palm oil, and a few plates.
+                
+                    The kitchen was a bit of a trek—down on the second floor. But there was hope this time: the elevator was operational. Anyone from the fifth floor could access it from the fourth, so Dylan descended one flight and then took the elevator.
+                
+                    In the kitchen, he retrieved his frozen mackerel from the fridge, carefully removing the eyes and deboning it, slicing the fish laterally with a sharp silver knife. He set the fish to simmer in its own juices on the stove. Meanwhile, he peeled the scaly skin from the yam, revealing the edible flesh beneath, and diced it into bite-sized arcs. As he worked, someone who had entered the kitchen earlier and was about to leave suddenly noticed the red oil and appeared shocked.
+                  `}
+                    time="Published on Nov. 25, 2024"
                   />
                 }
               />

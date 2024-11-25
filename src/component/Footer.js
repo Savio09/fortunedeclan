@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Footer = ({ music }) => {
   return (
     <div className="footer">
@@ -24,16 +25,17 @@ const Footer = ({ music }) => {
       <div className="links">
         <div className="elsewhere">
           <p>Connect</p>
-          <a href="https://github.com/Savio09">Github</a>
-          <a href="https://www.linkedin.com/in/declanfortune/">LinkedIn</a>
-          <a href="https://docs.google.com/document/d/1Fe4FYmQbdZbndRxLqIpJ2jOl0olCUdZGfpm6X_Bl42k/edit?usp=sharing">
+          <Link to="https://github.com/Savio09">Github</Link>
+          <Link to="https://www.linkedin.com/in/declanfortune/">LinkedIn</Link>
+          <Link to="https://docs.google.com/document/d/1Fe4FYmQbdZbndRxLqIpJ2jOl0olCUdZGfpm6X_Bl42k/edit?usp=sharing">
             Resume
-          </a>
+          </Link>
         </div>
         <div className="contact">
           <p>Message</p>
-          <a href="https://t.me/@Fortune_Declan">Telegram</a>
-          <a href="mailto:fortune@uni.minerva.edu">Gmail</a>
+          <Link to="https://t.me/@Fortune_Declan">Telegram</Link>
+          <Link to="mailto:fortune@uni.minerva.edu">Gmail</Link>
+          <Link to="#">Chat</Link>
         </div>
       </div>
     </div>

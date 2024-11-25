@@ -1,10 +1,14 @@
-import Hero from "./Hero";
 import Intro from "./Intro";
-import StoryTemplate from "./StoryTemplate";
 import { Link, Outlet } from "react-router-dom";
 
 const Notes = () => {
   const storyInformation = [
+    {
+      title: "The Jewel Beach",
+      subtitle: "Self discovery: Part 1",
+      icon: "diamond",
+      link: "jewel-cove",
+    },
     {
       title: "The Utopian Vision",
       subtitle: "A short fictional story about a utopic society",
