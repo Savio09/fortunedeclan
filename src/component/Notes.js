@@ -5,9 +5,15 @@ const Notes = () => {
   const storyInformation = [
     {
       title: "The Jewel Beach",
-      subtitle: "Self discovery: Part 1",
+      subtitle: "The Journey to self: Part 2",
       icon: "diamond",
-      link: "jewel-cove",
+      link: "jewel-cove-2",
+    },
+    {
+      title: "The Jewel Beach",
+      subtitle: "The Journey to self: Part 1",
+      icon: "diamond",
+      link: "jewel-cove-1",
     },
     {
       title: "The Utopian Vision",

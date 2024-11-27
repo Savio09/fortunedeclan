@@ -152,7 +152,7 @@ function App() {
                 }
               />
               <Route
-                path="jewel-cove"
+                path="jewel-cove-1"
                 element={
                   <Beach
                     title="The Jewel Beach"
@@ -194,6 +194,202 @@ function App() {
                     In the kitchen, he retrieved his frozen mackerel from the fridge, carefully removing the eyes and deboning it, slicing the fish laterally with a sharp silver knife. He set the fish to simmer in its own juices on the stove. Meanwhile, he peeled the scaly skin from the yam, revealing the edible flesh beneath, and diced it into bite-sized arcs. As he worked, someone who had entered the kitchen earlier and was about to leave suddenly noticed the red oil and appeared shocked.
                   `}
                     time="Published on Nov. 25, 2024"
+                  />
+                }
+              />
+              <Route
+                path="jewel-cove-2"
+                element={
+                  <Utopia
+                    title="The Jewel Beach"
+                    paragraph1={
+                      <em>
+                        I feel your presence when I’m not around you. Queen in
+                        the city, they need to crown you; holy water, baby,
+                        lemme drown you," the music in his earbuds crooned,
+                        reaching a climax before he slipped them into his
+                        pocket.
+                      </em>
+                    }
+                    paragraph2={
+                      <p>
+                        "How urgently do you need a kettle?" he asked, noticing
+                        the girl fumbling with a broken appliance.
+                        <br />
+                        <br />
+                        "Really urgently!" she exclaimed, a hint of desperation
+                        in her voice.
+                        <br />
+                        <br />
+                        "I could lend you mine, but you'll have to return it,"
+                        Dylan offered as he headed back to his room to retrieve
+                        his kettle.
+                      </p>
+                    }
+                    paragraph3={
+                      <p>
+                        Adjacent to the kitchen was the dining room. At its
+                        center stood a large round table surrounded by chairs,
+                        reminiscent of a royal court. Seated there were Hameed
+                        and Fakey, both engrossed in their meals and animated
+                        conversation about a planned road trip. After about five
+                        minutes, Dylan returned with the kettle. The girl
+                        thanked him sincerely. Before putting his earbuds back
+                        in, he turned and saw someone familiar emerging from the
+                        pantry stocked with everything from veggies to cereals
+                        to cleaning supplies. It was Olivine, and she was with
+                        the girl who needed the kettle.
+                        <br />
+                        <br />
+                        "It's you, right? The one from the school in the other
+                        county? Olivine?" Dylan said, a hint of surprise in his
+                        voice.
+                        <br />
+                        <br />
+                        "Yes, you remember!" she replied, trying to mask the
+                        delight in her voice. "You have a good memory. Thanks
+                        for lending us your kettle. It's actually a lot cleaner
+                        than the one that was here."
+                        <br />
+                        <br />
+                        "First of all, are you two roommates?" Dylan asked,
+                        genuinely surprised. "Secondly, do you mean what you
+                        just said about my kettle?" He glanced at it, noting its
+                        less-than-pristine condition with pockets of dirt. "Or
+                        are you being sarcastic?"
+                        <br />
+                        <br />
+                        "I'm very serious," she assured him.
+                        <br />
+                        <br />
+                        "Oh, thanks! That means a lot," Dylan said, smiling.
+                      </p>
+                    }
+                    paragraph4={
+                      <p>
+                        He slipped his earbuds back in and resumed his cooking.
+                        It was time to add the special ingredient. As he opened
+                        the pot, the rich aroma of fish and yam mingled and
+                        wafted through the room, catching the attention of
+                        others using nearby stoves. He poured a generous amount
+                        of red palm oil into the boiling mixture to enhance the
+                        flavor and aesthetics.
+                        <br />
+                        <br />
+                        "What's with the red spice?" Olivine asked, her
+                        curiosity piqued.
+                        <br />
+                        <br />
+                        Dylan explained what it was, and she seemed intrigued.
+                        <br />
+                        <br />
+                        "Can I try it?" she asked.
+                        <br />
+                        <br />
+                        "Um, yeah, but it's pretty bland on its own," he
+                        cautioned.
+                        <br />
+                        <br />
+                        "Does it contain nuts? I have a nut allergy," she said.
+                        <br />
+                        <br />
+                        "It's made from palm nuts, so I'm not sure how you'd
+                        react," Dylan replied, a note of concern in his voice.
+                        <br />
+                        <br />
+                        "It's fine," she said, dipping her delicate finger into
+                        the bottle and touching it to her lips. "It is really
+                        bland," she remarked, meeting his gaze.
+                        <br />
+                        <br />
+                        For the first time, Dylan noticed something stirring
+                        within him. Her eyes were stunning, captivating. He
+                        tried to compose himself. "Would you like to try what
+                        I'm cooking when it's done?" he offered.
+                        <br />
+                        <br />
+                        "Sure," she agreed, walking back into the dining room.
+                        <br />
+                        <br />
+                        Hameed and Fakey finished their meals and joined Dylan
+                        in the kitchen. They laughed about his habit of cooking
+                        in large quantities; Hameed had even nicknamed him "Mass
+                        Production." As they chatted about the road trip, Dylan
+                        continued preparing his meal. The dish was nearly ready.
+                        He began transferring the food from the large pot into
+                        Tupperware containers for storage. As he did so, Olivine
+                        returned to the kitchen, this time with a bowl in her
+                        hands, ready to wash it.
+                        <br />
+                        <br />
+                        "Would you like to try it now?" he asked.
+                        <br />
+                        <br />
+                        "I just ate, but I don't mind trying a little," she
+                        replied. "It looks very spicy."
+                        <br />
+                        <br />
+                        "Are you concerned?" Dylan asked.
+                        <br />
+                        <br />
+                        "No, I love spicy food. Can I taste it?"
+                        <br />
+                        <br />
+                        "Yeah, go ahead."
+                        <br />
+                        <br />
+                        She dipped her spoon into the hot pottage and took a
+                        small sample.
+                        <br />
+                        <br />
+                        "Is that all?" Dylan asked, a bit surprised.
+                        <br />
+                        <br />
+                        "I'm very picky," she admitted. "I can't eat much
+                        because I just ate, but I like it. It's very tasty."
+                        <br />
+                        <br />
+                        Hameed and Fakey stood nearby, now quieter as they
+                        pretended not to notice the exchange. Dylan turned to
+                        them.
+                        <br />
+                        <br />
+                        "So what's the itinerary?" he asked.
+                        <br />
+                        <br />
+                        Fakey responded, "We'll drive to Lake Tahoe, then to
+                        Vegas, and then to the Grand Canyon..."
+                        <br />
+                        <br />
+                        "That sounds very interesting," Olivine commented. "And
+                        you guys are driving all the way?"
+                        <br />
+                        <br />
+                        "That's right," Hameed confirmed.
+                        <br />
+                        <br />
+                        "Where are you both from?" she asked.
+                        <br />
+                        <br />
+                        They each told her, and soon, she and Fakey discovered
+                        they shared a common language, slipping into animated
+                        conversation. As they delved into the details of the
+                        trip, Dylan focused on packing his food. He increased
+                        the volume of his music to drown out the background
+                        chatter, concentrating on his task.
+                        <br />
+                        <br />
+                        By the time he finished cleaning up and storing the
+                        communal dishes, they had all left. The day was drawing
+                        to a close. Dylan made his way back to his room, the
+                        events of the evening playing over in his mind. He
+                        couldn't shake the image of Olivine's captivating eyes
+                        and the unexpected connection they'd shared. As he
+                        settled in for the night, he wondered what the coming
+                        days might hold.
+                      </p>
+                    }
+                    time="Published on Nov. 27, 2024"
                   />
                 }
               />
